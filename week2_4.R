@@ -40,6 +40,7 @@ f <- function(x){
 g <- function(x){
   x+y
 }
+f(1)
 #在动态作用域下，g函数是在call environment中寻找free variable y的
 #在静态作用于下，g函数在where the functino was defined的环境中寻找y(此处g在global environ中定义)
 #R语言是静态，所以y取10

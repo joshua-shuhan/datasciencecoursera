@@ -55,3 +55,7 @@ m <- matrix(1:4,nrow=2,ncol=2)
 dimnames(m) <- list(c("a","b"),c("c","d"))
 m
 # read.table()
+
+
+#list 是一种一般的数据结构，而 data.frame 是一种特殊的 list。
+#list 的每个分量可以在长度、类型上完全不一样，就像一组指针指向了一堆不同的变量。
